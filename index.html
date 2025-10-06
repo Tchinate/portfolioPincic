@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css" />
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="title text-center">
+          <h1 class="center">Stevan PINCIC</h1>
+          <h3 class="center">2ème année de BTS SIO</h3>
+          <h4 class="center"><a href="https://fr.linkedin.com/in/stevan-pincic-26a8a7349">Mon LinkedIn</a></h4>
+          <hr />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+            <ul class="list-inline">
+                <li><i class="devicon-python-plain colored"></i></li>
+                <li><i class="devicon-csharp-plain colored"></i></li>
+                <li><i class="devicon-html5-plain colored"></i></li>
+                <li><i class="devicon-mysql-plain colored"></i></li>
+                <li><i class="devicon-linux-plain"></i></li>
+            </ul>
+            <div class="summary">
+                <h3><button href="certifications.php"><img src="certification.png"></button>Certifications</h3>
+            </div>
+        </div>
+        
+        <!-- summary section -->
+        <div class="summary">
+          <h2 class="text-center">Parcours</h2>
+          <p>Étudiant investi dans l'apprentissage du développement, de la base de données et de la cybersécurité.</p>
+          
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <p>Business Analysis</p>
+              <p>Project Management</p>
+              <p>WordPress Management</p>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <p>Development</p>
+              <p>Design</p>
+              <p>Linux Admin</p>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <p>Agile Development</p>
+              <p>Scrum of Scrum</p>
+              <p>Frontend Development</p>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <p>Code Review</p>
+              <p>Peer Review</p>
+              <p>Fullstack Development</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        
+        <!-- work experience section -->
+        <div class="work-experience">
+          <h2 class="text-center">Work Experience</h2>
+          <div class="row experience-title">
+            <div class="col-md-9">
+              <h3>Some company</h3>
+              <h4>Program Manager</h4>
+              <h5>Some project</h5>
+            </div>
+            <div class="col-md-3">
+              <h3>June 2015 - Present</h3>
+            </div>
+          </div>
+          <div class="row experience-summary">
+            <div class="col-md-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat ullam, pariatur, iste sunt ducimus modi cum ad provident dolores mollitia voluptatibus nemo amet ipsam corporis, accusamus repudiandae nihil! Sed?</p>
+            </div>
+          </div>
+          
+          <!-- Corasent -->
+          <div class="row experience-title">
+            <div class="col-md-9">
+              <h3>Some company</h3>
+              <h4>Associate Project Manager</h4>
+              <h5>Some project</h5>
+            </div>
+            <div class="col-md-3">
+              <h3>Oct 2012 - Jun 2015</h3>
+            </div>
+          </div>
+          <div class="row experience-summary">
+            <div class="col-md-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sequi voluptatibus similique repellat, qui officiis excepturi odit esse magni veritatis voluptatum iste molestias illum labore fugit nihil, modi inventore. Excepturi!:</p>
+              <ul>
+                <li>Lead - UI design and development.</li>
+                <li>WordPress expert - Configuration, maintenance and custom development.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
