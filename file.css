@@ -1,6 +1,6 @@
 body {
-  background: #1B1B25;
-  color: #fff;
+  background: #3e3e9c;
+  color: #e77a7a;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -9,8 +9,8 @@ body {
 }
 
 .title {
-  margin-top: 100px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   
   a {
     color: #DB4D57;
@@ -89,4 +89,16 @@ button img {
   width: 25px;            /* ajuste la taille de l’image (modifie selon besoin) */
   height: auto;           /* garde le ratio de l'image */
   display: block;         /* évite l’espace blanc autour de l’image */
+}
+
+.centre-page
+{
+  position: relative;
+  left: 10em;
+
+}
+
+.police
+{
+  color: white;
 }
